@@ -10,8 +10,8 @@ if not version:
     raise RuntimeError('Cannot find version information')
 
 install_requires = [
-    'python-dateutil==2.6.0',
-    'requests==2.17.3',
+    'python-dateutil>=2.6.0',
+    'requests>=2.17.3',
 ]
 if sys.version_info < (3, ):
     install_requires.append('enum34')
